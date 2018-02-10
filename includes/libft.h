@@ -40,7 +40,7 @@ char				*ft_strchr(const char *s, int c);
 void				ft_strclr(char *s);
 int					ft_strcmp(const char *s1, const char *s2);
 char				*ft_strcpy(char *dst, const char *src);
-char				*ft_strccpy(char *dst, const char *src, char *end);
+char				*ft_strcpy_c(char *dst, const char *src, char *end);
 void				ft_strdel(char **as);
 char				*ft_strdup(const char *s1);
 int					ft_strequ(char const *s1, char const *s2);

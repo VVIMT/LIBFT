@@ -22,7 +22,7 @@ $(NAME): $(LIBFT_OBJ)
 	@echo "✅  $(BOLD)$(NAME)$(EOC)	$(GREEN)created$(EOC)"
 
 $(LIBFT_OBJ_DIR)%.o: $(LIBFT_SRC_DIR)%.c $(LIBFT_HEADER)
-	@mkdir -p $(LIBFT_OBJ_DIR)ft_printf $(LIBFT_OBJ_DIR)get_next_line $(LIBFT_OBJ_DIR)sort
+	@mkdir -p $(LIBFT_OBJ_DIR)ft_printf $(LIBFT_OBJ_DIR)get_next_line
 ifeq ($(DEBUG),0)
 	@$(CC) $(CFLAGS) $(CPPFLAGS) -c -o $@ $<
 else
