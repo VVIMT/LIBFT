@@ -6,7 +6,7 @@
 /*   By: vinvimo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 19:24:19 by vinvimo           #+#    #+#             */
-/*   Updated: 2018/02/06 00:16:31 by vinvimo          ###   ########.fr       */
+/*   Updated: 2019/01/30 20:08:47 by vinvimo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,8 +102,9 @@ int					get_next_line(const int fd, char **line);
 int					ft_printf(const char *format, ...);
 
 /*
- * * maths functions
+*** maths functions
  */
+
 long double			pi_gauss_legendre(long double pi, int precision);
 long double			ft_power(long double x, int y);
 
